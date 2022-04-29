@@ -1,0 +1,501 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="Volvo Page testing" timestamp="2021-10-12T10:37:36" time="37.209" tests="22" failures="0" errors="0" skipped="0">
+    <properties>
+      <property name="specId" value="0"/>
+      <property name="suiteName" value="Volvo Page testing"/>
+      <property name="capabilities" value="chrome.94_0_4606_81.windows"/>
+      <property name="file" value=".\test\specs\example.e2e.js"/>
+    </properties>
+    <testcase classname="chrome.94_0_4606_81.windows.Volvo_Page_testing" name="should check if cookie popup appears and accept cookie terms" time="3.926">
+      <system-out><![CDATA[
+COMMAND: POST /session/1d97ca02824efe1d4e166fb04f8c9e93/url - {"url":"https://www.volvocars.com/intl/v/car-safety/a-million-more/"}
+RESULT: {"url":"https://www.volvocars.com/intl/v/car-safety/a-million-more/"}
+COMMAND: POST /session/1d97ca02824efe1d4e166fb04f8c9e93/element - {"using":"css selector","value":".accept-cookies-button"}
+RESULT: {"using":"css selector","value":".accept-cookies-button"}
+COMMAND: POST /session/1d97ca02824efe1d4e166fb04f8c9e93/elements - {"using":"css selector","value":".accept-cookies-button"}
+RESULT: {"using":"css selector","value":".accept-cookies-button"}
+COMMAND: POST /session/1d97ca02824efe1d4e166fb04f8c9e93/element - {"using":"css selector","value":".cookie-settings-button"}
+RESULT: {"using":"css selector","value":".cookie-settings-button"}
+COMMAND: POST /session/1d97ca02824efe1d4e166fb04f8c9e93/elements - {"using":"css selector","value":".cookie-settings-button"}
+RESULT: {"using":"css selector","value":".cookie-settings-button"}
+COMMAND: POST /session/1d97ca02824efe1d4e166fb04f8c9e93/element - {"using":"css selector","value":".accept-cookies-button"}
+RESULT: {"using":"css selector","value":".accept-cookies-button"}
+COMMAND: POST /session/1d97ca02824efe1d4e166fb04f8c9e93/element/43559a27-d897-4167-b94d-7803b9feb2fa/click - {}
+RESULT: {}
+]]></system-out>
+    </testcase>
+    <testcase classname="chrome.94_0_4606_81.windows.Volvo_Page_testing" name="should play video 1 and check if the video exists" time="1.355">
+      <system-out><![CDATA[
+COMMAND: POST /session/1d97ca02824efe1d4e166fb04f8c9e93/url - {"url":"https://www.volvocars.com/intl/v/car-safety/a-million-more/"}
+RESULT: {"url":"https://www.volvocars.com/intl/v/car-safety/a-million-more/"}
+COMMAND: POST /session/1d97ca02824efe1d4e166fb04f8c9e93/element - {"using":"css selector","value":"#Video-1 > section > div"}
+RESULT: {"using":"css selector","value":"#Video-1 > section > div"}
+COMMAND: POST /session/1d97ca02824efe1d4e166fb04f8c9e93/elements - {"using":"css selector","value":"#Video-1 > section > div"}
+RESULT: {"using":"css selector","value":"#Video-1 > section > div"}
+COMMAND: POST /session/1d97ca02824efe1d4e166fb04f8c9e93/element - {"using":"css selector","value":"#Video-1 > section > div > button"}
+RESULT: {"using":"css selector","value":"#Video-1 > section > div > button"}
+COMMAND: POST /session/1d97ca02824efe1d4e166fb04f8c9e93/elements - {"using":"css selector","value":"#Video-1 > section > div > button"}
+RESULT: {"using":"css selector","value":"#Video-1 > section > div > button"}
+COMMAND: POST /session/1d97ca02824efe1d4e166fb04f8c9e93/element - {"using":"css selector","value":"#Video-1 > section > div > div > div > button"}
+RESULT: {"using":"css selector","value":"#Video-1 > section > div > div > div > button"}
+COMMAND: POST /session/1d97ca02824efe1d4e166fb04f8c9e93/elements - {"using":"css selector","value":"#Video-1 > section > div > div > div > button"}
+RESULT: {"using":"css selector","value":"#Video-1 > section > div > div > div > button"}
+COMMAND: POST /session/1d97ca02824efe1d4e166fb04f8c9e93/element - {"using":"css selector","value":"#Video-1 > section > div > iframe"}
+RESULT: {"using":"css selector","value":"#Video-1 > section > div > iframe"}
+COMMAND: POST /session/1d97ca02824efe1d4e166fb04f8c9e93/elements - {"using":"css selector","value":"#Video-1 > section > div > iframe"}
+RESULT: {"using":"css selector","value":"#Video-1 > section > div > iframe"}
+COMMAND: POST /session/1d97ca02824efe1d4e166fb04f8c9e93/element - {"using":"css selector","value":"#Video-1 > section > div > div > div > button"}
+RESULT: {"using":"css selector","value":"#Video-1 > section > div > div > div > button"}
+COMMAND: POST /session/1d97ca02824efe1d4e166fb04f8c9e93/element/be454ff6-94e9-454f-a8f8-25cbffe6adfd/click - {}
+RESULT: {}
+COMMAND: POST /session/1d97ca02824efe1d4e166fb04f8c9e93/element - {"using":"css selector","value":"#Video-1 > section > div > iframe"}
+RESULT: {"using":"css selector","value":"#Video-1 > section > div > iframe"}
+COMMAND: POST /session/1d97ca02824efe1d4e166fb04f8c9e93/elements - {"using":"css selector","value":"#Video-1 > section > div > iframe"}
+RESULT: {"using":"css selector","value":"#Video-1 > section > div > iframe"}
+COMMAND: POST /session/1d97ca02824efe1d4e166fb04f8c9e93/element - {"using":"css selector","value":"#Video-1 > section > div > button"}
+RESULT: {"using":"css selector","value":"#Video-1 > section > div > button"}
+COMMAND: POST /session/1d97ca02824efe1d4e166fb04f8c9e93/elements - {"using":"css selector","value":"#Video-1 > section > div > button"}
+RESULT: {"using":"css selector","value":"#Video-1 > section > div > button"}
+COMMAND: POST /session/1d97ca02824efe1d4e166fb04f8c9e93/element - {"using":"css selector","value":"#Video-1 > section > div > div > div > button"}
+RESULT: {"using":"css selector","value":"#Video-1 > section > div > div > div > button"}
+COMMAND: POST /session/1d97ca02824efe1d4e166fb04f8c9e93/elements - {"using":"css selector","value":"#Video-1 > section > div > div > div > button"}
+RESULT: {"using":"css selector","value":"#Video-1 > section > div > div > div > button"}
+]]></system-out>
+    </testcase>
+    <testcase classname="chrome.94_0_4606_81.windows.Volvo_Page_testing" name="should play video 1 2 scenario" time="1.203">
+      <system-out><![CDATA[
+COMMAND: POST /session/1d97ca02824efe1d4e166fb04f8c9e93/url - {"url":"https://www.volvocars.com/intl/v/car-safety/a-million-more/"}
+RESULT: {"url":"https://www.volvocars.com/intl/v/car-safety/a-million-more/"}
+COMMAND: POST /session/1d97ca02824efe1d4e166fb04f8c9e93/element - {"using":"css selector","value":"#Video-1 > section > div"}
+RESULT: {"using":"css selector","value":"#Video-1 > section > div"}
+COMMAND: POST /session/1d97ca02824efe1d4e166fb04f8c9e93/elements - {"using":"css selector","value":"#Video-1 > section > div"}
+RESULT: {"using":"css selector","value":"#Video-1 > section > div"}
+COMMAND: POST /session/1d97ca02824efe1d4e166fb04f8c9e93/element - {"using":"css selector","value":"#Video-1 > section > div > button"}
+RESULT: {"using":"css selector","value":"#Video-1 > section > div > button"}
+COMMAND: POST /session/1d97ca02824efe1d4e166fb04f8c9e93/elements - {"using":"css selector","value":"#Video-1 > section > div > button"}
+RESULT: {"using":"css selector","value":"#Video-1 > section > div > button"}
+COMMAND: POST /session/1d97ca02824efe1d4e166fb04f8c9e93/element - {"using":"css selector","value":"#Video-1 > section > div > div > div > button"}
+RESULT: {"using":"css selector","value":"#Video-1 > section > div > div > div > button"}
+COMMAND: POST /session/1d97ca02824efe1d4e166fb04f8c9e93/elements - {"using":"css selector","value":"#Video-1 > section > div > div > div > button"}
+RESULT: {"using":"css selector","value":"#Video-1 > section > div > div > div > button"}
+COMMAND: POST /session/1d97ca02824efe1d4e166fb04f8c9e93/element - {"using":"css selector","value":"#Video-1 > section > div > iframe"}
+RESULT: {"using":"css selector","value":"#Video-1 > section > div > iframe"}
+COMMAND: POST /session/1d97ca02824efe1d4e166fb04f8c9e93/elements - {"using":"css selector","value":"#Video-1 > section > div > iframe"}
+RESULT: {"using":"css selector","value":"#Video-1 > section > div > iframe"}
+COMMAND: POST /session/1d97ca02824efe1d4e166fb04f8c9e93/element - {"using":"css selector","value":"#Video-1 > section > div > button"}
+RESULT: {"using":"css selector","value":"#Video-1 > section > div > button"}
+COMMAND: POST /session/1d97ca02824efe1d4e166fb04f8c9e93/element/393440b5-31c9-4f3f-bd2a-cbba76201ed6/click - {}
+RESULT: {}
+COMMAND: POST /session/1d97ca02824efe1d4e166fb04f8c9e93/element - {"using":"css selector","value":"#Video-1 > section > div > iframe"}
+RESULT: {"using":"css selector","value":"#Video-1 > section > div > iframe"}
+COMMAND: POST /session/1d97ca02824efe1d4e166fb04f8c9e93/elements - {"using":"css selector","value":"#Video-1 > section > div > iframe"}
+RESULT: {"using":"css selector","value":"#Video-1 > section > div > iframe"}
+COMMAND: POST /session/1d97ca02824efe1d4e166fb04f8c9e93/element - {"using":"css selector","value":"#Video-1 > section > div > button"}
+RESULT: {"using":"css selector","value":"#Video-1 > section > div > button"}
+COMMAND: POST /session/1d97ca02824efe1d4e166fb04f8c9e93/elements - {"using":"css selector","value":"#Video-1 > section > div > button"}
+RESULT: {"using":"css selector","value":"#Video-1 > section > div > button"}
+COMMAND: POST /session/1d97ca02824efe1d4e166fb04f8c9e93/element - {"using":"css selector","value":"#Video-1 > section > div > div > div > button"}
+RESULT: {"using":"css selector","value":"#Video-1 > section > div > div > div > button"}
+COMMAND: POST /session/1d97ca02824efe1d4e166fb04f8c9e93/elements - {"using":"css selector","value":"#Video-1 > section > div > div > div > button"}
+RESULT: {"using":"css selector","value":"#Video-1 > section > div > div > div > button"}
+]]></system-out>
+    </testcase>
+    <testcase classname="chrome.94_0_4606_81.windows.Volvo_Page_testing" name="should click LearnMoreAboutCarSafety then navigate" time="2.16">
+      <system-out><![CDATA[
+COMMAND: POST /session/1d97ca02824efe1d4e166fb04f8c9e93/url - {"url":"https://www.volvocars.com/intl/v/car-safety/a-million-more/"}
+RESULT: {"url":"https://www.volvocars.com/intl/v/car-safety/a-million-more/"}
+COMMAND: POST /session/1d97ca02824efe1d4e166fb04f8c9e93/element - {"using":"css selector","value":"a[data-autoid=\"iconCallouts:cta\"]"}
+RESULT: {"using":"css selector","value":"a[data-autoid=\"iconCallouts:cta\"]"}
+COMMAND: POST /session/1d97ca02824efe1d4e166fb04f8c9e93/elements - {"using":"css selector","value":"a[data-autoid=\"iconCallouts:cta\"]"}
+RESULT: {"using":"css selector","value":"a[data-autoid=\"iconCallouts:cta\"]"}
+COMMAND: POST /session/1d97ca02824efe1d4e166fb04f8c9e93/element - {"using":"css selector","value":"a[data-autoid=\"iconCallouts:cta\"]"}
+RESULT: {"using":"css selector","value":"a[data-autoid=\"iconCallouts:cta\"]"}
+COMMAND: POST /session/1d97ca02824efe1d4e166fb04f8c9e93/element/6e3f626d-beaa-417c-bc39-f5ab2ead35de/click - {}
+RESULT: {}
+COMMAND: GET /session/1d97ca02824efe1d4e166fb04f8c9e93/url - {}
+RESULT: {}
+]]></system-out>
+    </testcase>
+    <testcase classname="chrome.94_0_4606_81.windows.Volvo_Page_testing" name="should click rechargeButton then navigate" time="2.222">
+      <system-out><![CDATA[
+COMMAND: POST /session/1d97ca02824efe1d4e166fb04f8c9e93/url - {"url":"https://www.volvocars.com/intl/v/car-safety/a-million-more/"}
+RESULT: {"url":"https://www.volvocars.com/intl/v/car-safety/a-million-more/"}
+COMMAND: POST /session/1d97ca02824efe1d4e166fb04f8c9e93/element - {"using":"css selector","value":"a[data-autoid=\"ProductListCarousel:cta1\"]"}
+RESULT: {"using":"css selector","value":"a[data-autoid=\"ProductListCarousel:cta1\"]"}
+COMMAND: POST /session/1d97ca02824efe1d4e166fb04f8c9e93/elements - {"using":"css selector","value":"a[data-autoid=\"ProductListCarousel:cta1\"]"}
+RESULT: {"using":"css selector","value":"a[data-autoid=\"ProductListCarousel:cta1\"]"}
+COMMAND: POST /session/1d97ca02824efe1d4e166fb04f8c9e93/element - {"using":"css selector","value":"a[data-autoid=\"ProductListCarousel:cta1\"]"}
+RESULT: {"using":"css selector","value":"a[data-autoid=\"ProductListCarousel:cta1\"]"}
+COMMAND: POST /session/1d97ca02824efe1d4e166fb04f8c9e93/element/a5fbd27d-12a5-4401-a4d8-aef5dab6ed13/click - {}
+RESULT: {}
+COMMAND: GET /session/1d97ca02824efe1d4e166fb04f8c9e93/url - {}
+RESULT: {}
+]]></system-out>
+    </testcase>
+    <testcase classname="chrome.94_0_4606_81.windows.Volvo_Page_testing" name="should click mildHybridCarsButton then navigate" time="1.758">
+      <system-out><![CDATA[
+COMMAND: POST /session/1d97ca02824efe1d4e166fb04f8c9e93/url - {"url":"https://www.volvocars.com/intl/v/car-safety/a-million-more/"}
+RESULT: {"url":"https://www.volvocars.com/intl/v/car-safety/a-million-more/"}
+COMMAND: POST /session/1d97ca02824efe1d4e166fb04f8c9e93/element - {"using":"css selector","value":"a[data-autoid=\"ProductListCarousel:cta2\"]"}
+RESULT: {"using":"css selector","value":"a[data-autoid=\"ProductListCarousel:cta2\"]"}
+COMMAND: POST /session/1d97ca02824efe1d4e166fb04f8c9e93/elements - {"using":"css selector","value":"a[data-autoid=\"ProductListCarousel:cta2\"]"}
+RESULT: {"using":"css selector","value":"a[data-autoid=\"ProductListCarousel:cta2\"]"}
+COMMAND: POST /session/1d97ca02824efe1d4e166fb04f8c9e93/element - {"using":"css selector","value":"a[data-autoid=\"ProductListCarousel:cta2\"]"}
+RESULT: {"using":"css selector","value":"a[data-autoid=\"ProductListCarousel:cta2\"]"}
+COMMAND: POST /session/1d97ca02824efe1d4e166fb04f8c9e93/element/b210976b-a58e-4626-9abc-27ea196e26a3/click - {}
+RESULT: {}
+COMMAND: GET /session/1d97ca02824efe1d4e166fb04f8c9e93/url - {}
+RESULT: {}
+]]></system-out>
+    </testcase>
+    <testcase classname="chrome.94_0_4606_81.windows.Volvo_Page_testing" name="should open LearnMore" time="2.497">
+      <system-out><![CDATA[
+COMMAND: POST /session/1d97ca02824efe1d4e166fb04f8c9e93/url - {"url":"https://www.volvocars.com/intl/v/car-safety/a-million-more/"}
+RESULT: {"url":"https://www.volvocars.com/intl/v/car-safety/a-million-more/"}
+COMMAND: POST /session/1d97ca02824efe1d4e166fb04f8c9e93/element - {"using":"css selector","value":"a[data-autoid=\"imageWithText:primaryCta\"]"}
+RESULT: {"using":"css selector","value":"a[data-autoid=\"imageWithText:primaryCta\"]"}
+COMMAND: POST /session/1d97ca02824efe1d4e166fb04f8c9e93/elements - {"using":"css selector","value":"a[data-autoid=\"imageWithText:primaryCta\"]"}
+RESULT: {"using":"css selector","value":"a[data-autoid=\"imageWithText:primaryCta\"]"}
+COMMAND: POST /session/1d97ca02824efe1d4e166fb04f8c9e93/element - {"using":"css selector","value":"a[data-autoid=\"imageWithText:primaryCta\"]"}
+RESULT: {"using":"css selector","value":"a[data-autoid=\"imageWithText:primaryCta\"]"}
+COMMAND: POST /session/1d97ca02824efe1d4e166fb04f8c9e93/element/9cfca6fd-8573-4f20-9b97-ddb91b383081/click - {}
+RESULT: {}
+COMMAND: GET /session/1d97ca02824efe1d4e166fb04f8c9e93/url - {}
+RESULT: {}
+]]></system-out>
+    </testcase>
+    <testcase classname="chrome.94_0_4606_81.windows.Volvo_Page_testing" name="should open ourCars Panel then close by using MenuCloseButton" time="2.107">
+      <system-out><![CDATA[
+COMMAND: POST /session/1d97ca02824efe1d4e166fb04f8c9e93/url - {"url":"https://www.volvocars.com/intl/v/car-safety/a-million-more/"}
+RESULT: {"url":"https://www.volvocars.com/intl/v/car-safety/a-million-more/"}
+COMMAND: POST /session/1d97ca02824efe1d4e166fb04f8c9e93/element - {"using":"css selector","value":"button[data-autoid=\"nav:topNavCarMenu\"]"}
+RESULT: {"using":"css selector","value":"button[data-autoid=\"nav:topNavCarMenu\"]"}
+COMMAND: POST /session/1d97ca02824efe1d4e166fb04f8c9e93/element/9f040b21-65ed-4520-9319-72ed079afd4e/click - {}
+RESULT: {}
+COMMAND: POST /session/1d97ca02824efe1d4e166fb04f8c9e93/element - {"using":"css selector","value":"button[data-autoid=\"nav:carMenuCloseButton\"]"}
+RESULT: {"using":"css selector","value":"button[data-autoid=\"nav:carMenuCloseButton\"]"}
+COMMAND: POST /session/1d97ca02824efe1d4e166fb04f8c9e93/elements - {"using":"css selector","value":"button[data-autoid=\"nav:carMenuCloseButton\"]"}
+RESULT: {"using":"css selector","value":"button[data-autoid=\"nav:carMenuCloseButton\"]"}
+COMMAND: POST /session/1d97ca02824efe1d4e166fb04f8c9e93/elements - {"using":"css selector","value":"button[data-autoid=\"nav:carMenuCloseButton\"]"}
+RESULT: {"using":"css selector","value":"button[data-autoid=\"nav:carMenuCloseButton\"]"}
+COMMAND: POST /session/1d97ca02824efe1d4e166fb04f8c9e93/element - {"using":"css selector","value":"button[data-autoid=\"nav:carMenuCloseButton\"]"}
+RESULT: {"using":"css selector","value":"button[data-autoid=\"nav:carMenuCloseButton\"]"}
+COMMAND: POST /session/1d97ca02824efe1d4e166fb04f8c9e93/element/710d52f4-21d6-44c9-a55f-5b40b06edd45/click - {}
+RESULT: {}
+]]></system-out>
+    </testcase>
+    <testcase classname="chrome.94_0_4606_81.windows.Volvo_Page_testing" name="should open ourCars Panel then close by using MenuCloseIconButton" time="1.431">
+      <system-out><![CDATA[
+COMMAND: POST /session/1d97ca02824efe1d4e166fb04f8c9e93/url - {"url":"https://www.volvocars.com/intl/v/car-safety/a-million-more/"}
+RESULT: {"url":"https://www.volvocars.com/intl/v/car-safety/a-million-more/"}
+COMMAND: POST /session/1d97ca02824efe1d4e166fb04f8c9e93/element - {"using":"css selector","value":"button[data-autoid=\"nav:topNavCarMenu\"]"}
+RESULT: {"using":"css selector","value":"button[data-autoid=\"nav:topNavCarMenu\"]"}
+COMMAND: POST /session/1d97ca02824efe1d4e166fb04f8c9e93/element/6d5d081e-7df7-40de-9348-6a0b499ac651/click - {}
+RESULT: {}
+COMMAND: POST /session/1d97ca02824efe1d4e166fb04f8c9e93/element - {"using":"css selector","value":"button[data-autoid=\"nav:carMenuCloseIcon\"]"}
+RESULT: {"using":"css selector","value":"button[data-autoid=\"nav:carMenuCloseIcon\"]"}
+COMMAND: POST /session/1d97ca02824efe1d4e166fb04f8c9e93/element/f0ba51d3-7b96-43f8-9796-f649c4257ba7/click - {}
+RESULT: {}
+]]></system-out>
+    </testcase>
+    <testcase classname="chrome.94_0_4606_81.windows.Volvo_Page_testing" name="should open sideNavToogle Panel then close by using CloseButton" time="1.727">
+      <system-out><![CDATA[
+COMMAND: POST /session/1d97ca02824efe1d4e166fb04f8c9e93/url - {"url":"https://www.volvocars.com/intl/v/car-safety/a-million-more/"}
+RESULT: {"url":"https://www.volvocars.com/intl/v/car-safety/a-million-more/"}
+COMMAND: POST /session/1d97ca02824efe1d4e166fb04f8c9e93/element - {"using":"css selector","value":"#sitenav-v2-sidenav-toggle"}
+RESULT: {"using":"css selector","value":"#sitenav-v2-sidenav-toggle"}
+COMMAND: POST /session/1d97ca02824efe1d4e166fb04f8c9e93/element/bd7193ae-d469-4a2e-bff1-40279babbe3c/click - {}
+RESULT: {}
+COMMAND: POST /session/1d97ca02824efe1d4e166fb04f8c9e93/element - {"using":"css selector","value":"button[data-autoid=\"nav:siteNavCloseIcon\"]"}
+RESULT: {"using":"css selector","value":"button[data-autoid=\"nav:siteNavCloseIcon\"]"}
+COMMAND: POST /session/1d97ca02824efe1d4e166fb04f8c9e93/element/76d3d5f6-57fb-4ce5-a373-58074f4d8ac5/click - {}
+RESULT: {}
+]]></system-out>
+    </testcase>
+    <testcase classname="chrome.94_0_4606_81.windows.Volvo_Page_testing" name="should open sideNavToogle Panel then close by using BackDrop" time="2.166">
+      <system-out><![CDATA[
+COMMAND: POST /session/1d97ca02824efe1d4e166fb04f8c9e93/url - {"url":"https://www.volvocars.com/intl/v/car-safety/a-million-more/"}
+RESULT: {"url":"https://www.volvocars.com/intl/v/car-safety/a-million-more/"}
+COMMAND: POST /session/1d97ca02824efe1d4e166fb04f8c9e93/element - {"using":"css selector","value":"#sitenav-v2-sidenav-toggle"}
+RESULT: {"using":"css selector","value":"#sitenav-v2-sidenav-toggle"}
+COMMAND: POST /session/1d97ca02824efe1d4e166fb04f8c9e93/element/89a1a1e4-60f5-4c36-a248-bb4a8e17d219/click - {}
+RESULT: {}
+COMMAND: POST /session/1d97ca02824efe1d4e166fb04f8c9e93/element - {"using":"css selector","value":"#Sitenav-backdrop"}
+RESULT: {"using":"css selector","value":"#Sitenav-backdrop"}
+COMMAND: POST /session/1d97ca02824efe1d4e166fb04f8c9e93/element/c561175f-fbc7-4daa-a76a-a76015d60e87/click - {}
+RESULT: {}
+]]></system-out>
+    </testcase>
+    <testcase classname="chrome.94_0_4606_81.windows.Volvo_Page_testing" name="should open play testimonial video 1 by clicking over the image" time="0.803">
+      <system-out><![CDATA[
+COMMAND: POST /session/1d97ca02824efe1d4e166fb04f8c9e93/url - {"url":"https://www.volvocars.com/intl/v/car-safety/a-million-more/"}
+RESULT: {"url":"https://www.volvocars.com/intl/v/car-safety/a-million-more/"}
+COMMAND: POST /session/1d97ca02824efe1d4e166fb04f8c9e93/elements - {"using":"css selector","value":"[data-autoid=\"videoTestimonials:container\"]"}
+RESULT: {"using":"css selector","value":"[data-autoid=\"videoTestimonials:container\"]"}
+COMMAND: POST /session/1d97ca02824efe1d4e166fb04f8c9e93/element/6f538131-2b6a-4e5f-aaca-fb076eff1ed3/click - {}
+RESULT: {}
+]]></system-out>
+    </testcase>
+    <testcase classname="chrome.94_0_4606_81.windows.Volvo_Page_testing" name="should open play testimonial video 1 by clicking on play button" time="1.382">
+      <system-out><![CDATA[
+COMMAND: POST /session/1d97ca02824efe1d4e166fb04f8c9e93/url - {"url":"https://www.volvocars.com/intl/v/car-safety/a-million-more/"}
+RESULT: {"url":"https://www.volvocars.com/intl/v/car-safety/a-million-more/"}
+COMMAND: POST /session/1d97ca02824efe1d4e166fb04f8c9e93/elements - {"using":"css selector","value":"[data-autoid=\"videoTestimonials:container\"]"}
+RESULT: {"using":"css selector","value":"[data-autoid=\"videoTestimonials:container\"]"}
+COMMAND: POST /session/1d97ca02824efe1d4e166fb04f8c9e93/element/6329a4fd-10bc-46ec-9f14-a0890fcdc714/element - {"using":"css selector","value":"button"}
+RESULT: {"using":"css selector","value":"button"}
+COMMAND: POST /session/1d97ca02824efe1d4e166fb04f8c9e93/element/6329a4fd-10bc-46ec-9f14-a0890fcdc714/elements - {"using":"css selector","value":"button"}
+RESULT: {"using":"css selector","value":"button"}
+COMMAND: POST /session/1d97ca02824efe1d4e166fb04f8c9e93/element/6329a4fd-10bc-46ec-9f14-a0890fcdc714/elements - {"using":"css selector","value":"button"}
+COMMAND: POST /session/1d97ca02824efe1d4e166fb04f8c9e93/element - {"using":"css selector","value":"[data-autoid=\"videoTestimonials:container\"]"}
+RESULT: {"using":"css selector","value":"[data-autoid=\"videoTestimonials:container\"]"}
+COMMAND: POST /session/1d97ca02824efe1d4e166fb04f8c9e93/element/6329a4fd-10bc-46ec-9f14-a0890fcdc714/elements - {"using":"css selector","value":"button"}
+COMMAND: POST /session/1d97ca02824efe1d4e166fb04f8c9e93/element - {"using":"css selector","value":"[data-autoid=\"videoTestimonials:container\"]"}
+RESULT: {"using":"css selector","value":"[data-autoid=\"videoTestimonials:container\"]"}
+COMMAND: POST /session/1d97ca02824efe1d4e166fb04f8c9e93/element/c4b01162-8109-4d0a-8729-8f0fcbcaa9fa/elements - {"using":"css selector","value":"button"}
+RESULT: {"using":"css selector","value":"button"}
+COMMAND: POST /session/1d97ca02824efe1d4e166fb04f8c9e93/element/c4b01162-8109-4d0a-8729-8f0fcbcaa9fa/element - {"using":"css selector","value":"button"}
+RESULT: {"using":"css selector","value":"button"}
+COMMAND: POST /session/1d97ca02824efe1d4e166fb04f8c9e93/element/27f02071-62d8-4006-b2e3-d25fc3deddb2/click - {}
+RESULT: {}
+]]></system-out>
+    </testcase>
+    <testcase classname="chrome.94_0_4606_81.windows.Volvo_Page_testing" name="should open play testimonial video 2 by clicking over the image" time="0.783">
+      <system-out><![CDATA[
+COMMAND: POST /session/1d97ca02824efe1d4e166fb04f8c9e93/url - {"url":"https://www.volvocars.com/intl/v/car-safety/a-million-more/"}
+RESULT: {"url":"https://www.volvocars.com/intl/v/car-safety/a-million-more/"}
+COMMAND: POST /session/1d97ca02824efe1d4e166fb04f8c9e93/elements - {"using":"css selector","value":"[data-autoid=\"videoTestimonials:container\"]"}
+RESULT: {"using":"css selector","value":"[data-autoid=\"videoTestimonials:container\"]"}
+COMMAND: POST /session/1d97ca02824efe1d4e166fb04f8c9e93/element/4fb40501-1bd2-4109-8824-e8041ac0b5c6/click - {}
+RESULT: {}
+]]></system-out>
+    </testcase>
+    <testcase classname="chrome.94_0_4606_81.windows.Volvo_Page_testing" name="should open play testimonial video 2 by clicking on play button" time="1.118">
+      <system-out><![CDATA[
+COMMAND: POST /session/1d97ca02824efe1d4e166fb04f8c9e93/url - {"url":"https://www.volvocars.com/intl/v/car-safety/a-million-more/"}
+RESULT: {"url":"https://www.volvocars.com/intl/v/car-safety/a-million-more/"}
+COMMAND: POST /session/1d97ca02824efe1d4e166fb04f8c9e93/elements - {"using":"css selector","value":"[data-autoid=\"videoTestimonials:container\"]"}
+RESULT: {"using":"css selector","value":"[data-autoid=\"videoTestimonials:container\"]"}
+COMMAND: POST /session/1d97ca02824efe1d4e166fb04f8c9e93/element/9d9a0200-28b6-437b-9afa-af55ca62e73a/element - {"using":"css selector","value":"button"}
+RESULT: {"using":"css selector","value":"button"}
+COMMAND: POST /session/1d97ca02824efe1d4e166fb04f8c9e93/element/9d9a0200-28b6-437b-9afa-af55ca62e73a/elements - {"using":"css selector","value":"button"}
+COMMAND: POST /session/1d97ca02824efe1d4e166fb04f8c9e93/elements - {"using":"css selector","value":"[data-autoid=\"videoTestimonials:container\"]"}
+RESULT: {"using":"css selector","value":"[data-autoid=\"videoTestimonials:container\"]"}
+COMMAND: POST /session/1d97ca02824efe1d4e166fb04f8c9e93/element/9d9a0200-28b6-437b-9afa-af55ca62e73a/elements - {"using":"css selector","value":"button"}
+COMMAND: POST /session/1d97ca02824efe1d4e166fb04f8c9e93/elements - {"using":"css selector","value":"[data-autoid=\"videoTestimonials:container\"]"}
+RESULT: {"using":"css selector","value":"[data-autoid=\"videoTestimonials:container\"]"}
+COMMAND: POST /session/1d97ca02824efe1d4e166fb04f8c9e93/element/9d9a0200-28b6-437b-9afa-af55ca62e73a/elements - {"using":"css selector","value":"button"}
+COMMAND: POST /session/1d97ca02824efe1d4e166fb04f8c9e93/elements - {"using":"css selector","value":"[data-autoid=\"videoTestimonials:container\"]"}
+RESULT: {"using":"css selector","value":"[data-autoid=\"videoTestimonials:container\"]"}
+COMMAND: POST /session/1d97ca02824efe1d4e166fb04f8c9e93/element/9d9a0200-28b6-437b-9afa-af55ca62e73a/elements - {"using":"css selector","value":"button"}
+COMMAND: POST /session/1d97ca02824efe1d4e166fb04f8c9e93/elements - {"using":"css selector","value":"[data-autoid=\"videoTestimonials:container\"]"}
+RESULT: {"using":"css selector","value":"[data-autoid=\"videoTestimonials:container\"]"}
+COMMAND: POST /session/1d97ca02824efe1d4e166fb04f8c9e93/element/3beb7b87-6734-4474-a00e-58d50977b188/elements - {"using":"css selector","value":"button"}
+RESULT: {"using":"css selector","value":"button"}
+COMMAND: POST /session/1d97ca02824efe1d4e166fb04f8c9e93/element/3beb7b87-6734-4474-a00e-58d50977b188/element - {"using":"css selector","value":"button"}
+RESULT: {"using":"css selector","value":"button"}
+COMMAND: POST /session/1d97ca02824efe1d4e166fb04f8c9e93/element/368ddfc5-5243-4189-8422-987e8f842ca6/click - {}
+RESULT: {}
+]]></system-out>
+    </testcase>
+    <testcase classname="chrome.94_0_4606_81.windows.Volvo_Page_testing" name="should open play testimonial video 3 by clicking over the image" time="1.675">
+      <system-out><![CDATA[
+COMMAND: POST /session/1d97ca02824efe1d4e166fb04f8c9e93/url - {"url":"https://www.volvocars.com/intl/v/car-safety/a-million-more/"}
+RESULT: {"url":"https://www.volvocars.com/intl/v/car-safety/a-million-more/"}
+COMMAND: POST /session/1d97ca02824efe1d4e166fb04f8c9e93/elements - {"using":"css selector","value":"[data-autoid=\"videoTestimonials:container\"]"}
+RESULT: {"using":"css selector","value":"[data-autoid=\"videoTestimonials:container\"]"}
+COMMAND: POST /session/1d97ca02824efe1d4e166fb04f8c9e93/element/7517b61c-c5ed-4850-88c0-469c3a19a189/click - {}
+COMMAND: POST /session/1d97ca02824efe1d4e166fb04f8c9e93/elements - {"using":"css selector","value":"[data-autoid=\"videoTestimonials:container\"]"}
+RESULT: {"using":"css selector","value":"[data-autoid=\"videoTestimonials:container\"]"}
+COMMAND: POST /session/1d97ca02824efe1d4e166fb04f8c9e93/element/7517b61c-c5ed-4850-88c0-469c3a19a189/click - {}
+COMMAND: POST /session/1d97ca02824efe1d4e166fb04f8c9e93/elements - {"using":"css selector","value":"[data-autoid=\"videoTestimonials:container\"]"}
+RESULT: {"using":"css selector","value":"[data-autoid=\"videoTestimonials:container\"]"}
+COMMAND: POST /session/1d97ca02824efe1d4e166fb04f8c9e93/element/7517b61c-c5ed-4850-88c0-469c3a19a189/click - {}
+COMMAND: POST /session/1d97ca02824efe1d4e166fb04f8c9e93/elements - {"using":"css selector","value":"[data-autoid=\"videoTestimonials:container\"]"}
+RESULT: {"using":"css selector","value":"[data-autoid=\"videoTestimonials:container\"]"}
+COMMAND: POST /session/1d97ca02824efe1d4e166fb04f8c9e93/element/7517b61c-c5ed-4850-88c0-469c3a19a189/click - {}
+COMMAND: POST /session/1d97ca02824efe1d4e166fb04f8c9e93/elements - {"using":"css selector","value":"[data-autoid=\"videoTestimonials:container\"]"}
+RESULT: {"using":"css selector","value":"[data-autoid=\"videoTestimonials:container\"]"}
+COMMAND: POST /session/1d97ca02824efe1d4e166fb04f8c9e93/element/7517b61c-c5ed-4850-88c0-469c3a19a189/click - {}
+COMMAND: POST /session/1d97ca02824efe1d4e166fb04f8c9e93/elements - {"using":"css selector","value":"[data-autoid=\"videoTestimonials:container\"]"}
+RESULT: {"using":"css selector","value":"[data-autoid=\"videoTestimonials:container\"]"}
+COMMAND: POST /session/1d97ca02824efe1d4e166fb04f8c9e93/element/7517b61c-c5ed-4850-88c0-469c3a19a189/click - {}
+COMMAND: POST /session/1d97ca02824efe1d4e166fb04f8c9e93/elements - {"using":"css selector","value":"[data-autoid=\"videoTestimonials:container\"]"}
+RESULT: {"using":"css selector","value":"[data-autoid=\"videoTestimonials:container\"]"}
+COMMAND: POST /session/1d97ca02824efe1d4e166fb04f8c9e93/element/7517b61c-c5ed-4850-88c0-469c3a19a189/click - {}
+COMMAND: POST /session/1d97ca02824efe1d4e166fb04f8c9e93/elements - {"using":"css selector","value":"[data-autoid=\"videoTestimonials:container\"]"}
+RESULT: {"using":"css selector","value":"[data-autoid=\"videoTestimonials:container\"]"}
+COMMAND: POST /session/1d97ca02824efe1d4e166fb04f8c9e93/element/7517b61c-c5ed-4850-88c0-469c3a19a189/click - {}
+COMMAND: POST /session/1d97ca02824efe1d4e166fb04f8c9e93/elements - {"using":"css selector","value":"[data-autoid=\"videoTestimonials:container\"]"}
+RESULT: {"using":"css selector","value":"[data-autoid=\"videoTestimonials:container\"]"}
+COMMAND: POST /session/1d97ca02824efe1d4e166fb04f8c9e93/element/8b0a021f-5ce3-4a5f-8648-0c2807c9e6ad/click - {}
+RESULT: {}
+]]></system-out>
+    </testcase>
+    <testcase classname="chrome.94_0_4606_81.windows.Volvo_Page_testing" name="should open play testimonial video 3 by clicking on play button" time="1.912">
+      <system-out><![CDATA[
+COMMAND: POST /session/1d97ca02824efe1d4e166fb04f8c9e93/url - {"url":"https://www.volvocars.com/intl/v/car-safety/a-million-more/"}
+RESULT: {"url":"https://www.volvocars.com/intl/v/car-safety/a-million-more/"}
+COMMAND: POST /session/1d97ca02824efe1d4e166fb04f8c9e93/elements - {"using":"css selector","value":"[data-autoid=\"videoTestimonials:container\"]"}
+RESULT: {"using":"css selector","value":"[data-autoid=\"videoTestimonials:container\"]"}
+COMMAND: POST /session/1d97ca02824efe1d4e166fb04f8c9e93/element/3aa25c94-d476-4918-acfc-ec333c88229e/element - {"using":"css selector","value":"button"}
+RESULT: {"using":"css selector","value":"button"}
+COMMAND: POST /session/1d97ca02824efe1d4e166fb04f8c9e93/element/3aa25c94-d476-4918-acfc-ec333c88229e/elements - {"using":"css selector","value":"button"}
+RESULT: {"using":"css selector","value":"button"}
+COMMAND: POST /session/1d97ca02824efe1d4e166fb04f8c9e93/element/3aa25c94-d476-4918-acfc-ec333c88229e/elements - {"using":"css selector","value":"button"}
+COMMAND: POST /session/1d97ca02824efe1d4e166fb04f8c9e93/elements - {"using":"css selector","value":"[data-autoid=\"videoTestimonials:container\"]"}
+RESULT: {"using":"css selector","value":"[data-autoid=\"videoTestimonials:container\"]"}
+COMMAND: POST /session/1d97ca02824efe1d4e166fb04f8c9e93/element/3aa25c94-d476-4918-acfc-ec333c88229e/elements - {"using":"css selector","value":"button"}
+COMMAND: POST /session/1d97ca02824efe1d4e166fb04f8c9e93/elements - {"using":"css selector","value":"[data-autoid=\"videoTestimonials:container\"]"}
+RESULT: {"using":"css selector","value":"[data-autoid=\"videoTestimonials:container\"]"}
+COMMAND: POST /session/1d97ca02824efe1d4e166fb04f8c9e93/element/3aa25c94-d476-4918-acfc-ec333c88229e/elements - {"using":"css selector","value":"button"}
+COMMAND: POST /session/1d97ca02824efe1d4e166fb04f8c9e93/elements - {"using":"css selector","value":"[data-autoid=\"videoTestimonials:container\"]"}
+RESULT: {"using":"css selector","value":"[data-autoid=\"videoTestimonials:container\"]"}
+COMMAND: POST /session/1d97ca02824efe1d4e166fb04f8c9e93/element/3aa25c94-d476-4918-acfc-ec333c88229e/elements - {"using":"css selector","value":"button"}
+COMMAND: POST /session/1d97ca02824efe1d4e166fb04f8c9e93/elements - {"using":"css selector","value":"[data-autoid=\"videoTestimonials:container\"]"}
+RESULT: {"using":"css selector","value":"[data-autoid=\"videoTestimonials:container\"]"}
+COMMAND: POST /session/1d97ca02824efe1d4e166fb04f8c9e93/element/3aa25c94-d476-4918-acfc-ec333c88229e/elements - {"using":"css selector","value":"button"}
+COMMAND: POST /session/1d97ca02824efe1d4e166fb04f8c9e93/elements - {"using":"css selector","value":"[data-autoid=\"videoTestimonials:container\"]"}
+RESULT: {"using":"css selector","value":"[data-autoid=\"videoTestimonials:container\"]"}
+COMMAND: POST /session/1d97ca02824efe1d4e166fb04f8c9e93/element/3aa25c94-d476-4918-acfc-ec333c88229e/elements - {"using":"css selector","value":"button"}
+COMMAND: POST /session/1d97ca02824efe1d4e166fb04f8c9e93/elements - {"using":"css selector","value":"[data-autoid=\"videoTestimonials:container\"]"}
+RESULT: {"using":"css selector","value":"[data-autoid=\"videoTestimonials:container\"]"}
+COMMAND: POST /session/1d97ca02824efe1d4e166fb04f8c9e93/element/3aa25c94-d476-4918-acfc-ec333c88229e/elements - {"using":"css selector","value":"button"}
+COMMAND: POST /session/1d97ca02824efe1d4e166fb04f8c9e93/elements - {"using":"css selector","value":"[data-autoid=\"videoTestimonials:container\"]"}
+RESULT: {"using":"css selector","value":"[data-autoid=\"videoTestimonials:container\"]"}
+COMMAND: POST /session/1d97ca02824efe1d4e166fb04f8c9e93/element/3aa25c94-d476-4918-acfc-ec333c88229e/elements - {"using":"css selector","value":"button"}
+COMMAND: POST /session/1d97ca02824efe1d4e166fb04f8c9e93/elements - {"using":"css selector","value":"[data-autoid=\"videoTestimonials:container\"]"}
+RESULT: {"using":"css selector","value":"[data-autoid=\"videoTestimonials:container\"]"}
+COMMAND: POST /session/1d97ca02824efe1d4e166fb04f8c9e93/element/24616428-2fe5-456e-8153-10146fdfa0d5/elements - {"using":"css selector","value":"button"}
+RESULT: {"using":"css selector","value":"button"}
+COMMAND: POST /session/1d97ca02824efe1d4e166fb04f8c9e93/element/24616428-2fe5-456e-8153-10146fdfa0d5/element - {"using":"css selector","value":"button"}
+RESULT: {"using":"css selector","value":"button"}
+COMMAND: POST /session/1d97ca02824efe1d4e166fb04f8c9e93/element/4a6c7fb4-84f8-4f39-aebe-7f979b22d9c1/click - {}
+RESULT: {}
+]]></system-out>
+    </testcase>
+    <testcase classname="chrome.94_0_4606_81.windows.Volvo_Page_testing" name="should open play testimonial video 4 by clicking over the image" time="1.032">
+      <system-out><![CDATA[
+COMMAND: POST /session/1d97ca02824efe1d4e166fb04f8c9e93/url - {"url":"https://www.volvocars.com/intl/v/car-safety/a-million-more/"}
+RESULT: {"url":"https://www.volvocars.com/intl/v/car-safety/a-million-more/"}
+COMMAND: POST /session/1d97ca02824efe1d4e166fb04f8c9e93/elements - {"using":"css selector","value":"[data-autoid=\"videoTestimonials:container\"]"}
+RESULT: {"using":"css selector","value":"[data-autoid=\"videoTestimonials:container\"]"}
+COMMAND: POST /session/1d97ca02824efe1d4e166fb04f8c9e93/element/543054b6-584f-4096-ac71-d7af216a7a83/click - {}
+RESULT: {}
+]]></system-out>
+    </testcase>
+    <testcase classname="chrome.94_0_4606_81.windows.Volvo_Page_testing" name="should open play testimonial video 4 by clicking on play button" time="2.049">
+      <system-out><![CDATA[
+COMMAND: POST /session/1d97ca02824efe1d4e166fb04f8c9e93/url - {"url":"https://www.volvocars.com/intl/v/car-safety/a-million-more/"}
+RESULT: {"url":"https://www.volvocars.com/intl/v/car-safety/a-million-more/"}
+COMMAND: POST /session/1d97ca02824efe1d4e166fb04f8c9e93/elements - {"using":"css selector","value":"[data-autoid=\"videoTestimonials:container\"]"}
+RESULT: {"using":"css selector","value":"[data-autoid=\"videoTestimonials:container\"]"}
+COMMAND: POST /session/1d97ca02824efe1d4e166fb04f8c9e93/element/f065bdfb-c30f-4866-b039-36abb9b9ee18/element - {"using":"css selector","value":"button"}
+RESULT: {"using":"css selector","value":"button"}
+COMMAND: POST /session/1d97ca02824efe1d4e166fb04f8c9e93/element/f065bdfb-c30f-4866-b039-36abb9b9ee18/elements - {"using":"css selector","value":"button"}
+RESULT: {"using":"css selector","value":"button"}
+COMMAND: POST /session/1d97ca02824efe1d4e166fb04f8c9e93/element/f065bdfb-c30f-4866-b039-36abb9b9ee18/elements - {"using":"css selector","value":"button"}
+COMMAND: POST /session/1d97ca02824efe1d4e166fb04f8c9e93/elements - {"using":"css selector","value":"[data-autoid=\"videoTestimonials:container\"]"}
+RESULT: {"using":"css selector","value":"[data-autoid=\"videoTestimonials:container\"]"}
+COMMAND: POST /session/1d97ca02824efe1d4e166fb04f8c9e93/element/f065bdfb-c30f-4866-b039-36abb9b9ee18/elements - {"using":"css selector","value":"button"}
+COMMAND: POST /session/1d97ca02824efe1d4e166fb04f8c9e93/elements - {"using":"css selector","value":"[data-autoid=\"videoTestimonials:container\"]"}
+RESULT: {"using":"css selector","value":"[data-autoid=\"videoTestimonials:container\"]"}
+COMMAND: POST /session/1d97ca02824efe1d4e166fb04f8c9e93/element/f065bdfb-c30f-4866-b039-36abb9b9ee18/elements - {"using":"css selector","value":"button"}
+COMMAND: POST /session/1d97ca02824efe1d4e166fb04f8c9e93/elements - {"using":"css selector","value":"[data-autoid=\"videoTestimonials:container\"]"}
+RESULT: {"using":"css selector","value":"[data-autoid=\"videoTestimonials:container\"]"}
+COMMAND: POST /session/1d97ca02824efe1d4e166fb04f8c9e93/element/f065bdfb-c30f-4866-b039-36abb9b9ee18/elements - {"using":"css selector","value":"button"}
+COMMAND: POST /session/1d97ca02824efe1d4e166fb04f8c9e93/elements - {"using":"css selector","value":"[data-autoid=\"videoTestimonials:container\"]"}
+RESULT: {"using":"css selector","value":"[data-autoid=\"videoTestimonials:container\"]"}
+COMMAND: POST /session/1d97ca02824efe1d4e166fb04f8c9e93/element/f065bdfb-c30f-4866-b039-36abb9b9ee18/elements - {"using":"css selector","value":"button"}
+COMMAND: POST /session/1d97ca02824efe1d4e166fb04f8c9e93/elements - {"using":"css selector","value":"[data-autoid=\"videoTestimonials:container\"]"}
+RESULT: {"using":"css selector","value":"[data-autoid=\"videoTestimonials:container\"]"}
+COMMAND: POST /session/1d97ca02824efe1d4e166fb04f8c9e93/element/f065bdfb-c30f-4866-b039-36abb9b9ee18/elements - {"using":"css selector","value":"button"}
+COMMAND: POST /session/1d97ca02824efe1d4e166fb04f8c9e93/elements - {"using":"css selector","value":"[data-autoid=\"videoTestimonials:container\"]"}
+RESULT: {"using":"css selector","value":"[data-autoid=\"videoTestimonials:container\"]"}
+COMMAND: POST /session/1d97ca02824efe1d4e166fb04f8c9e93/element/f065bdfb-c30f-4866-b039-36abb9b9ee18/elements - {"using":"css selector","value":"button"}
+COMMAND: POST /session/1d97ca02824efe1d4e166fb04f8c9e93/elements - {"using":"css selector","value":"[data-autoid=\"videoTestimonials:container\"]"}
+RESULT: {"using":"css selector","value":"[data-autoid=\"videoTestimonials:container\"]"}
+COMMAND: POST /session/1d97ca02824efe1d4e166fb04f8c9e93/element/f065bdfb-c30f-4866-b039-36abb9b9ee18/elements - {"using":"css selector","value":"button"}
+COMMAND: POST /session/1d97ca02824efe1d4e166fb04f8c9e93/elements - {"using":"css selector","value":"[data-autoid=\"videoTestimonials:container\"]"}
+RESULT: {"using":"css selector","value":"[data-autoid=\"videoTestimonials:container\"]"}
+COMMAND: POST /session/1d97ca02824efe1d4e166fb04f8c9e93/element/f065bdfb-c30f-4866-b039-36abb9b9ee18/elements - {"using":"css selector","value":"button"}
+COMMAND: POST /session/1d97ca02824efe1d4e166fb04f8c9e93/elements - {"using":"css selector","value":"[data-autoid=\"videoTestimonials:container\"]"}
+RESULT: {"using":"css selector","value":"[data-autoid=\"videoTestimonials:container\"]"}
+COMMAND: POST /session/1d97ca02824efe1d4e166fb04f8c9e93/element/f065bdfb-c30f-4866-b039-36abb9b9ee18/elements - {"using":"css selector","value":"button"}
+COMMAND: POST /session/1d97ca02824efe1d4e166fb04f8c9e93/elements - {"using":"css selector","value":"[data-autoid=\"videoTestimonials:container\"]"}
+RESULT: {"using":"css selector","value":"[data-autoid=\"videoTestimonials:container\"]"}
+COMMAND: POST /session/1d97ca02824efe1d4e166fb04f8c9e93/element/f065bdfb-c30f-4866-b039-36abb9b9ee18/elements - {"using":"css selector","value":"button"}
+COMMAND: POST /session/1d97ca02824efe1d4e166fb04f8c9e93/elements - {"using":"css selector","value":"[data-autoid=\"videoTestimonials:container\"]"}
+RESULT: {"using":"css selector","value":"[data-autoid=\"videoTestimonials:container\"]"}
+COMMAND: POST /session/1d97ca02824efe1d4e166fb04f8c9e93/element/f065bdfb-c30f-4866-b039-36abb9b9ee18/elements - {"using":"css selector","value":"button"}
+COMMAND: POST /session/1d97ca02824efe1d4e166fb04f8c9e93/elements - {"using":"css selector","value":"[data-autoid=\"videoTestimonials:container\"]"}
+RESULT: {"using":"css selector","value":"[data-autoid=\"videoTestimonials:container\"]"}
+COMMAND: POST /session/1d97ca02824efe1d4e166fb04f8c9e93/element/f065bdfb-c30f-4866-b039-36abb9b9ee18/elements - {"using":"css selector","value":"button"}
+COMMAND: POST /session/1d97ca02824efe1d4e166fb04f8c9e93/elements - {"using":"css selector","value":"[data-autoid=\"videoTestimonials:container\"]"}
+RESULT: {"using":"css selector","value":"[data-autoid=\"videoTestimonials:container\"]"}
+COMMAND: POST /session/1d97ca02824efe1d4e166fb04f8c9e93/element/f065bdfb-c30f-4866-b039-36abb9b9ee18/elements - {"using":"css selector","value":"button"}
+COMMAND: POST /session/1d97ca02824efe1d4e166fb04f8c9e93/elements - {"using":"css selector","value":"[data-autoid=\"videoTestimonials:container\"]"}
+RESULT: {"using":"css selector","value":"[data-autoid=\"videoTestimonials:container\"]"}
+COMMAND: POST /session/1d97ca02824efe1d4e166fb04f8c9e93/element/f065bdfb-c30f-4866-b039-36abb9b9ee18/elements - {"using":"css selector","value":"button"}
+COMMAND: POST /session/1d97ca02824efe1d4e166fb04f8c9e93/elements - {"using":"css selector","value":"[data-autoid=\"videoTestimonials:container\"]"}
+RESULT: {"using":"css selector","value":"[data-autoid=\"videoTestimonials:container\"]"}
+COMMAND: POST /session/1d97ca02824efe1d4e166fb04f8c9e93/element/f065bdfb-c30f-4866-b039-36abb9b9ee18/elements - {"using":"css selector","value":"button"}
+COMMAND: POST /session/1d97ca02824efe1d4e166fb04f8c9e93/elements - {"using":"css selector","value":"[data-autoid=\"videoTestimonials:container\"]"}
+RESULT: {"using":"css selector","value":"[data-autoid=\"videoTestimonials:container\"]"}
+COMMAND: POST /session/1d97ca02824efe1d4e166fb04f8c9e93/element/4fe8c571-2c3f-4385-bc29-790a3b7c4d75/elements - {"using":"css selector","value":"button"}
+RESULT: {"using":"css selector","value":"button"}
+COMMAND: POST /session/1d97ca02824efe1d4e166fb04f8c9e93/element/4fe8c571-2c3f-4385-bc29-790a3b7c4d75/element - {"using":"css selector","value":"button"}
+RESULT: {"using":"css selector","value":"button"}
+COMMAND: POST /session/1d97ca02824efe1d4e166fb04f8c9e93/element/e4adfefc-aeed-4159-b1e7-ce41ba6c4a9b/click - {}
+RESULT: {}
+]]></system-out>
+    </testcase>
+    <testcase classname="chrome.94_0_4606_81.windows.Volvo_Page_testing" name="should click springCarouselNextButton" time="1.559">
+      <system-out><![CDATA[
+COMMAND: POST /session/1d97ca02824efe1d4e166fb04f8c9e93/url - {"url":"https://www.volvocars.com/intl/v/car-safety/a-million-more/"}
+RESULT: {"url":"https://www.volvocars.com/intl/v/car-safety/a-million-more/"}
+COMMAND: POST /session/1d97ca02824efe1d4e166fb04f8c9e93/element - {"using":"css selector","value":"button[data-autoid=\"springCarouselNextButton\"]"}
+RESULT: {"using":"css selector","value":"button[data-autoid=\"springCarouselNextButton\"]"}
+COMMAND: POST /session/1d97ca02824efe1d4e166fb04f8c9e93/elements - {"using":"css selector","value":"button[data-autoid=\"springCarouselNextButton\"]"}
+RESULT: {"using":"css selector","value":"button[data-autoid=\"springCarouselNextButton\"]"}
+COMMAND: POST /session/1d97ca02824efe1d4e166fb04f8c9e93/elements - {"using":"css selector","value":"button[data-autoid=\"springCarouselNextButton\"]"}
+RESULT: {"using":"css selector","value":"button[data-autoid=\"springCarouselNextButton\"]"}
+COMMAND: POST /session/1d97ca02824efe1d4e166fb04f8c9e93/element - {"using":"css selector","value":"button[data-autoid=\"springCarouselNextButton\"]"}
+RESULT: {"using":"css selector","value":"button[data-autoid=\"springCarouselNextButton\"]"}
+COMMAND: POST /session/1d97ca02824efe1d4e166fb04f8c9e93/element/067eaceb-b2ef-4ddb-adb6-48cd0e135544/click - {}
+RESULT: {}
+]]></system-out>
+    </testcase>
+    <testcase classname="chrome.94_0_4606_81.windows.Volvo_Page_testing" name="should click springCarouselPreviousButton" time="1.143">
+      <system-out><![CDATA[
+COMMAND: POST /session/1d97ca02824efe1d4e166fb04f8c9e93/url - {"url":"https://www.volvocars.com/intl/v/car-safety/a-million-more/"}
+RESULT: {"url":"https://www.volvocars.com/intl/v/car-safety/a-million-more/"}
+COMMAND: POST /session/1d97ca02824efe1d4e166fb04f8c9e93/element - {"using":"css selector","value":"button[data-autoid=\"springCarouselPreviousButton\"]"}
+RESULT: {"using":"css selector","value":"button[data-autoid=\"springCarouselPreviousButton\"]"}
+COMMAND: POST /session/1d97ca02824efe1d4e166fb04f8c9e93/elements - {"using":"css selector","value":"button[data-autoid=\"springCarouselPreviousButton\"]"}
+RESULT: {"using":"css selector","value":"button[data-autoid=\"springCarouselPreviousButton\"]"}
+COMMAND: POST /session/1d97ca02824efe1d4e166fb04f8c9e93/elements - {"using":"css selector","value":"button[data-autoid=\"springCarouselPreviousButton\"]"}
+RESULT: {"using":"css selector","value":"button[data-autoid=\"springCarouselPreviousButton\"]"}
+COMMAND: POST /session/1d97ca02824efe1d4e166fb04f8c9e93/element - {"using":"css selector","value":"button[data-autoid=\"springCarouselPreviousButton\"]"}
+RESULT: {"using":"css selector","value":"button[data-autoid=\"springCarouselPreviousButton\"]"}
+COMMAND: POST /session/1d97ca02824efe1d4e166fb04f8c9e93/element/7999b46a-6e85-42ed-a350-6ddaffdb92eb/click - {}
+RESULT: {}
+]]></system-out>
+    </testcase>
+    <testcase classname="chrome.94_0_4606_81.windows.Volvo_Page_testing" name="should open first page" time="1.06">
+      <system-out><![CDATA[
+COMMAND: POST /session/1d97ca02824efe1d4e166fb04f8c9e93/element - {"using":"css selector","value":"a[data-autoid=\"productListCarouselItem-0\"]"}
+RESULT: {"using":"css selector","value":"a[data-autoid=\"productListCarouselItem-0\"]"}
+COMMAND: GET /session/1d97ca02824efe1d4e166fb04f8c9e93/element/84297d97-ef44-4634-a118-fa96a2603132/attribute/href - {}
+RESULT: {}
+COMMAND: POST /session/1d97ca02824efe1d4e166fb04f8c9e93/url - {"url":"https://www.volvocars.com/intl/v/cars/xc90-hybrid"}
+RESULT: {"url":"https://www.volvocars.com/intl/v/cars/xc90-hybrid"}
+COMMAND: GET /session/1d97ca02824efe1d4e166fb04f8c9e93/url - {}
+RESULT: {}
+COMMAND: DELETE /session/1d97ca02824efe1d4e166fb04f8c9e93 - {}
+RESULT: {}
+]]></system-out>
+    </testcase>
+  </testsuite>
+</testsuites>
